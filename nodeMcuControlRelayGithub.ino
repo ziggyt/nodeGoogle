@@ -50,7 +50,7 @@ void setup() {
   Serial.print("http://");
   Serial.print(WiFi.localIP());
   Serial.println("/");
-  Serial.println(current.hour);
+  //Serial.println(current.hour);
 
 }
 
